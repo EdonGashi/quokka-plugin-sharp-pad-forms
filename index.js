@@ -8,6 +8,8 @@ module.exports = {
     }
 
     this.clearHandlers = clearHandlers
+    global.Action = Action
+    global.Form = Form
     listen(port)
   },
 
