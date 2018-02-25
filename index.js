@@ -7,14 +7,14 @@ module.exports = {
       port = config['sharp-pad-forms'].port
     }
 
-    this.clearHandlers = clearHandlers
+    global.clearHandlers = clearHandlers
     global.Action = Action
     global.Form = Form
     listen(port)
   },
 
   beforeEach: config => {
-    this.clearHandlers()
+    global.clearHandlers()
   }
 
 }
