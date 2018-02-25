@@ -1,6 +1,6 @@
 {
   "name": "quokka-plugin-sharp-pad-forms",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Quokka plugin for sharp-pad-forms",
   "main": "index.js",
   "scripts": {

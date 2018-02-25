@@ -8,11 +8,11 @@ module.exports = {
       port = config['sharp-pad-forms'].port
     }
 
+    global.clearHandlers = clearHandlers
+    global.Action = Action
+    global.Form = Form
     getPort({ port })
       .then(newPort => {
-        global.clearHandlers = clearHandlers
-        global.Action = Action
-        global.Form = Form
         listen(newPort)
       })
       .catch(err => {
