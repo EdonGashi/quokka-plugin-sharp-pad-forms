@@ -5,7 +5,10 @@ module.exports = {
     global._clearHandlers = clearHandlers
     global.Action = Action
     global.Form = Form
-    global._listen = listen
+    global._listen = self => {
+      listen()
+      return self
+    }
   },
 
   beforeEach: config => {
