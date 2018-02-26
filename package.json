@@ -1,6 +1,6 @@
 {
   "name": "quokka-plugin-sharp-pad-forms",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Quokka plugin for sharp-pad-forms",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/EdonGashi/quokka-plugin-sharp-pad-forms#readme",
   "dependencies": {
-    "get-port": "^3.2.0",
     "sharp-pad-forms": "~0"
   }
 }
